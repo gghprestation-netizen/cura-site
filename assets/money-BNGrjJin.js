@@ -1,1 +1,0 @@
-const o=new Map;function m(f,e="EUR",r="fr-FR"){const n=`${r}|${e}`;let t=o.get(n);return t||(t=new Intl.NumberFormat(r,{style:"currency",currency:e,minimumFractionDigits:2}),o.set(n,t)),t.format(f/100).replace(/\s/g," ")}export{m as f};
