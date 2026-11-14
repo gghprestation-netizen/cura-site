@@ -1,0 +1,1 @@
+const t=["dermatologie","dermatologique","gynécologie","gynécologique","diagnostic","traitement","ordonnance","guérir","soigner","prescrire","prescription","patient","patiente"];function n(e){const o=e.toLocaleLowerCase("fr");return t.filter(r=>new RegExp(`(^|[^\\p{L}])${r}([^\\p{L}]|$)`,"u").test(o))}export{t as F,n as f};

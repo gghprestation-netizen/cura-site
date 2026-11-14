@@ -1,0 +1,1 @@
+const o={client:"Client",counselor:"Conseiller",pharmacy:"Pharmacie",courier:"Livreur",operator:"Opérateur",direction:"Direction"},n=e=>o[e]??e,t=["courier","operator","pharmacy","direction"];function a(e){return[e.first_name,e.last_name].filter(Boolean).join(" ")||e.email||e.phone||"—"}function i(e){return e.roles.filter(r=>r!=="client")}export{t as G,i as p,n as r,a as s};

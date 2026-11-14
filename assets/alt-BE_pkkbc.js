@@ -1,0 +1,1 @@
+const s=t=>t.toLocaleLowerCase("fr").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\s+/g," ").trim();function p(t,i,l,n){const r=[t.trim()],e=s(t);i&&!e.includes(s(i))&&r.push(i.trim());const o=(n??l??"").trim();if(o){const c=s(o).split(" ").filter(f=>!e.includes(f));c.length>0&&c.join(" ")===s(o)&&r.push(o)}return r.join(" – ")}export{p};

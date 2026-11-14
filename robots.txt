@@ -1,0 +1,12 @@
+# Cura — robots.txt (docs/seo/mots-cles.md)
+User-agent: *
+Allow: /
+Disallow: /compte
+Disallow: /commande
+Disallow: /direction
+Disallow: /pro
+Disallow: /pharmacie
+Disallow: /livraison
+Disallow: /operateur
+Disallow: /design
+# Sitemap: https://<adresse-du-site>/sitemap.xml — ligne écrite à la construction quand APP_BASE_URL est connue.
